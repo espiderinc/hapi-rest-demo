@@ -1,0 +1,44 @@
+{
+  "name": "hapi-rest-demo",
+  "version": "1.0.0",
+  "description": "A SpiderTutorial Demo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/espiderinc/hapi-rest-demo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "hapijs"
+  ],
+  "author": "SpiderTutorial",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/espiderinc/hapi-rest-demo/issues"
+  },
+  "homepage": "https://github.com/espiderinc/hapi-rest-demo#readme",
+  "dependencies": {
+    "hapi": "^13.3.0",
+    "pg": "^4.5.5",
+    "joi": "~2.8.0",
+    "underscore": "~1.6.0",
+    "q": "~1.0.1"
+  },
+  "devDependencies": {
+    "li": "^1.0.0"
+  },
+  "config": {
+    "blanket": {
+      "pattern": [
+        "src"
+      ],
+      "data-cover-never": "node_modules"
+    },
+    "travis-cov": {
+      "threshold": 10
+    }
+  }
+}
