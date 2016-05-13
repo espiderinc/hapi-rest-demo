@@ -2,6 +2,7 @@
 
 var productController = require('../controllers/product');
 
+
 module.exports = function () {
     return [
         {
