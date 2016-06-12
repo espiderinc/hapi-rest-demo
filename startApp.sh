@@ -5,4 +5,4 @@ export DB_PRD_USER=spidertutorial
 export DB_PRD_PASS=spidertutorial
 export NODE_HOST=localhost
 export NODE_PORT=8080
-node /myapp/index.js
+node /myapp/index.js&
