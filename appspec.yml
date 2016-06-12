@@ -1,0 +1,10 @@
+files:
+  - source: /
+    destination: /myapp
+permissions:
+  - object: /myapp/startApp.sh
+    mode: 777
+hooks:
+  ApplicationStart:
+    - location: /myapp/startApp.sh
+      timeout: 3600
