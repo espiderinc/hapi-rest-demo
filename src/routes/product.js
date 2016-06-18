@@ -12,7 +12,7 @@ module.exports = function () {
         },
         {
             method: 'GET',
-            path: '/products/name/{product_name}',
+            path: '/products/title/{title}',
             handler: productController.findByName
         },
         {

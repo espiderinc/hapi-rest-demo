@@ -9,11 +9,11 @@ productDAO.prototype = (function(){
 		findByName: function findByName(params, callback) {
 
 			var values = [
-				params.product_name
+				params.title
 			];
 
 			var sql = "select * from products"+
-				" where prod_id = $1::varchar";
+				" where title = $1::varchar";
 
 			db.query({
 				sql : sql,
