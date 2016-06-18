@@ -54,7 +54,7 @@ module.exports = function() {
 				'database' : 'dellstore2'
 			},
 			'development' : {
-				'host' : 'mynas',
+				'host' : 'dellstore2.cgffdp2lclff.us-west-2.rds.amazonaws.com',
 				'user' : 'spidertutorial',
 				'password' : 'spidertutorial',
 				'database' : 'dellstore2'

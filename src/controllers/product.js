@@ -6,6 +6,18 @@ function ProductController(){};
 ProductController.prototype = (function(){
 
 	return {
+		findByName: function findByName(request, reply) {
+
+			var params = request.params;
+
+			productDAO.findByName(params, function (err, data) {
+				if(err) {
+					console.log(err);
+					return reply(err);
+				}
+				reply(data.rows);
+			});
+		},
 		findByID: function findByID(request, reply) {
 
 			var params = request.params;
