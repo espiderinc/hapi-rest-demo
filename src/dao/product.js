@@ -6,21 +6,21 @@ function productDAO(){};
 productDAO.prototype = (function(){
 
 	return {
-		findByName: function findByName(params, callback) {
-
-			var values = [
-				params.title
-			];
-
-			var sql = "select * from products"+
-				" where title = $1::varchar";
-
-			db.query({
-				sql : sql,
-				values: values,
-				callback : callback
-			});
-		},
+		// findByName: function findByName(params, callback) {
+        //
+		// 	var values = [
+		// 		params.title
+		// 	];
+        //
+		// 	var sql = "select * from products"+
+		// 		" where title = $1::varchar";
+        //
+		// 	db.query({
+		// 		sql : sql,
+		// 		values: values,
+		// 		callback : callback
+		// 	})
+		// },
 		findByID: function findByID(params, callback) {
 
 			var values = [
