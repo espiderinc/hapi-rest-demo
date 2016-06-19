@@ -10,11 +10,11 @@ module.exports = function () {
             path: '/products/{product_id}',
             handler: productController.findByID
         },
-        // {
-        //     method: 'GET',
-        //     path: '/products/title/{title}',
-        //     handler: productController.findByName
-        // },
+         {
+             method: 'GET',
+             path: '/products/title/{title}',
+             handler: productController.findByName
+        },
         {
             method: 'GET',
             path: '/products',
