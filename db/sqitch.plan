@@ -3,3 +3,4 @@
 %uri=https://github.org/espiderinc/hapi-rest-demo.git
 
 init 2016-06-13T16:05:29Z SpiderTutorial <SpiderTutorial@outlook.com> # Initialize the dellstore2 database
+product-add-comments 2016-06-19T04:39:54Z SpiderTutorial <SpiderTutorial@outlook.com> # add new column "comments" to product
